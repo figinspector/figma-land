@@ -9,8 +9,31 @@ img {
   max-width: var(--container-size);
   margin: auto;
   padding: 0 var(--container-padding);
-  
+
   @media (min-width: 768px) {
     --container-padding: 40px;
+  }
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 236px;
+  min-height: 52px;
+  padding: 16px;
+  font-size: 1.12rem;
+  line-height: 1;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+  color: var(--color-light-text);
+  background: var(--color-primary);
+  border: 1px solid transparent;
+  border-radius: 35px;
+  transition: all var(--main-animation);
+  justify-self: flex-start;
+
+  &:hover {
+    text-decoration: underline;
   }
 }

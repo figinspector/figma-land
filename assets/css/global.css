@@ -25,16 +25,22 @@
   --main-font-size: 18px;
   --main-font-weight: 400;
   --main-line-height: 1.4;
+  --main-letter-spacing: 0.2px;
 
   /* container */
   --container: 1440px;
-  --container-padding: 20px; 
+  --container-padding: 20px;
+  
+  /* animation */
+  --main-animation: 0.5s ease-out;
 
   /* base */
   font-family: var(--main-font), sans-serif;
   font-size: var(--main-font-size);
+  font-style: normal;
   font-weight: var(--main-font-weight);
   line-height: var(--main-line-height);
+  letter-spacing: var(--main-letter-spacing);
   color: var(--color-text-secondary);
   background-color: var(--color-light-bg);
   scroll-behavior: smooth;
