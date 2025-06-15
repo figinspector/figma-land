@@ -13,8 +13,8 @@
   --color-primary: #2091f9;
   --color-secondary-a: #2dc071;
   --color-secondary-b: #f15b07;
-  --color-text: #252b42;
-  --color-secondary-text: #374754;
+  --color-text-title: #252b42;
+  --color-text-secondary: #374754;
   --color-light-text: #fff;
   --color-dark-bg: #252b42;
   --color-light-bg: #fff;
@@ -35,27 +35,7 @@
   font-size: var(--main-font-size);
   font-weight: var(--main-font-weight);
   line-height: var(--main-line-height);
-  color: var(--color-text);
+  color: var(--color-text-secondary);
+  background-color: var(--color-light-bg);
   scroll-behavior: smooth;
 }
-
-.container {
-  width: 100%;
-  max-width: var(--container-size);
-  margin: auto;
-  padding: 0 var(--container-padding);
-  border: 1px solid #000;
-  
-  @media (min-width: 768px) {
-    --container-padding: 40px;
-  }
-}
-
-/* font-size: calc((18 / var(--font-size)) * 1rem); */
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-

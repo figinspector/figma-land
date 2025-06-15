@@ -1,0 +1,16 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-size);
+  margin: auto;
+  padding: 0 var(--container-padding);
+  
+  @media (min-width: 768px) {
+    --container-padding: 40px;
+  }
+}
