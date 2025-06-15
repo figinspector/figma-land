@@ -1,4 +1,4 @@
-
+@import url("../fonts/fonts.css");
 
 *,
 *::after,
@@ -9,5 +9,53 @@
 }
 
 :root {
-  --color-text: ;
+  /* colors */
+  --color-primary: #2091f9;
+  --color-secondary-a: #2dc071;
+  --color-secondary-b: #f15b07;
+  --color-text: #252b42;
+  --color-secondary-text: #374754;
+  --color-light-text: #fff;
+  --color-dark-bg: #252b42;
+  --color-light-bg: #fff;
+  --color-gradient-bg: #222b32;
+
+  /* fonts */
+  --main-font: "Graphik";
+  --main-font-size: 18px;
+  --main-font-weight: 400;
+  --main-line-height: 1.4;
+
+  /* container */
+  --container: 1440px;
+  --container-padding: 20px; 
+
+  /* base */
+  font-family: var(--main-font), sans-serif;
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+  line-height: var(--main-line-height);
+  color: var(--color-text);
+  scroll-behavior: smooth;
 }
+
+.container {
+  width: 100%;
+  max-width: var(--container-size);
+  margin: auto;
+  padding: 0 var(--container-padding);
+  border: 1px solid #000;
+  
+  @media (min-width: 768px) {
+    --container-padding: 40px;
+  }
+}
+
+/* font-size: calc((18 / var(--font-size)) * 1rem); */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+

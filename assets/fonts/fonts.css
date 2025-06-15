@@ -12,6 +12,6 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("Graphik-Bold.woff") format("woff2"),
+  src: url("Graphik-Bold.woff2") format("woff2"),
        url("Graphik-Bold.woff") format("woff");
 }
