@@ -14,9 +14,24 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    
+    <!-- icons -->
+    <svg
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="assets/icons/global.icons.partial.html"
+    ></svg>
+    <!-- header -->
+    <header
+      class="header-hero"
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="partials/index.header-nav.partial.html"
+    >
+      Loading nav...
+    </header>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>

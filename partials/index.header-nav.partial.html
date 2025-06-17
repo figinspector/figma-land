@@ -1,0 +1,44 @@
+<header class="header-hero">
+  <div class="container">
+    <nav class="header-nav">
+      <div
+        class="header-nav__menu"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/header-nav.menu.partial.html"
+      >
+        Loading menu items ...
+      </div>
+      <a href="/" class="header-nav__logo">
+        <img
+          width="186"
+          height="58"
+          class="logo"
+          src="assets/img/figma-land-logo.png"
+          alt="logotype Figma Land "
+        />
+      </a>
+      <div
+        class="header-nav__icons"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/header-nav.icons.partial.html"
+      >
+        Loading socials icons...
+      </div>
+      <button
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/header-nav.burger.partial.html"
+      >
+        Loading burger...
+      </button>
+    </nav>
+    <div
+      class="header-content"
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="partials/header-content.partial.html"
+    >Loading header-content...</div>
+  </div>
+</header>

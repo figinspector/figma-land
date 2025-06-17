@@ -15,10 +15,10 @@
   --color-secondary-b: #f15b07;
   --color-text-title: #252b42;
   --color-text-secondary: #374754;
-  --color-light-text: #fff;
+  --color-text-light: #fff;
   --color-dark-bg: #252b42;
-  --color-light-bg: #fff;
-  --color-gradient-bg: #222b32;
+  --color-bg-light: #fff;
+  --color-bg-gradient: #222b32;
 
   /* fonts */
   --main-font: "Graphik";
@@ -29,7 +29,7 @@
 
   /* container */
   --container: 1440px;
-  --container-padding: 20px;
+  --container-padding: 16px;
   
   /* animation */
   --main-animation: 0.5s ease-out;

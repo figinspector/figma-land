@@ -1,0 +1,36 @@
+@import url("header-nav.menu.css");
+@import url("header-nav.icons.css");
+@import url("header-content.css");
+
+.header-hero {
+  min-height: 828px;
+  background: var(--color-dark-bg)
+    url("../img/hero/hero-bg-320.jpg") top center / cover no-repeat;
+
+    @media (min-width: 768px) {
+      max-height: 930px;
+      background: url("../img/hero/hero-bg.jpg") top center / cover no-repeat;
+    }
+
+  .header-nav {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 78px;
+    grid-template-columns: 2fr 1fr;
+    
+    @media (min-width: 768px) {
+      grid-template-rows: 116px;
+      grid-template-columns: 1fr 1fr min-content;
+      column-gap: clamp(15px, 1vw, 42px)
+    }
+
+    .header-nav__logo {
+      grid-row: 1;
+      grid-column: 1;
+
+      @media (min-width: 768px) {
+        grid-column: 2;
+    }
+    }
+  }
+}

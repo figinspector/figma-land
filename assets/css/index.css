@@ -1,3 +1,7 @@
+body.no-scroll {
+  overflow: hidden;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -6,7 +10,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: var(--container-size);
+  max-width: var(--container);
   margin: auto;
   padding: 0 var(--container-padding);
 
@@ -26,7 +30,7 @@ img {
   line-height: 1;
   letter-spacing: 0.1px;
   text-decoration: none;
-  color: var(--color-light-text);
+  color: var(--color-text-light);
   background: var(--color-primary);
   border: 1px solid transparent;
   border-radius: 35px;
@@ -36,4 +40,13 @@ img {
   &:hover {
     text-decoration: underline;
   }
+}
+
+h2.title {
+  font-size: 2.67rem;
+  line-height: 1.15;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: var(--color-text-title);
+
 }
